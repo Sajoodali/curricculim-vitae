@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.top_bar {
+    height: 80px;
+    width: 100%;
+    background-color: #202020;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 0px 0px 13px #000000;
+    box-shadow: 0px 0px 12px 4px #3a3b3a;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #ff9100;
+}
+
+.option ul {
+    display: flex;
+}
+
+ul a {
+    margin-left: 2rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: underline #ff9100;
+    letter-spacing: 1px;
+
+    font-weight: 600;
+
+}
+
+ul a:hover {
+    color: #ff9100;
+    transform: scale(.8);
+    transition: .4s;
+    text-decoration: overline #ffffff;
+}
+
+/* hero sectoin  */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 123px;
+}
+
+.main div {
+    width: 40%;
+}
+
+.right {
+    align-content: center;
+    padding: 0px 0px 0px 50px;
+    color: white;
+    font-size: 1.7rem;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.hello {
+    display: inline;
+    font-size: 2rem;
+}
+
+.right p:hover {
+    cursor: pointer;
+}
+
+#web {
+    color: #ff9100;
+    text-decoration: underline;
+}
+
+#web:hover {
+    cursor: pointer;
+    transform: scale(.7);
+    transition: .3s;
+    text-decoration: overline #ff9100;
+    color: #c9c9c9;
+}
+
+.left {
+    margin-top: 5%;
+    border-radius: 70PX;
+    background-image: url(img.jpg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 550px;
+    box-shadow: 2px 2px 16px 7px #ffae45a2;
+    cursor: pointer;
+}
+
+.line {
+    background-color: #ff9100;
+    height: 2px;
+    margin: 3rem;
+    padding: 0px 15px;
+}
+
+/* project section  */
+
+#pro_head {
+    text-align: center;
+    text-decoration: overline #ff9100;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px;
+    gap: 2rem;
+}
+
+.box {
+    height: 350px;
+    width: 25%;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #ff9100;
+    position: relative;
+}
+
+.box-img {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.box h1 {
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline #ff9100;
+}
+
+.add {
+    height: 200px;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(82, 82, 82, 0.7);
+    position: absolute;
+    left: 0px;
+    bottom: -80px;
+    opacity: 0;
+    transition: .4s;
+}
+
+.box:hover .add {
+    bottom: 0px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.add a {
+    text-align: center;
+    text-decoration: underline;
+    color: #ff9100ff;
+    text-transform: capitalize;
+    padding-left: 6.5rem;
+}
+
+.add h1 {
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: overline #ff9100;
+}
