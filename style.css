@@ -76,6 +76,21 @@ ul a:hover {
     font-style: italic;
     text-transform: capitalize;
 }
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 1.7rem;
+    margin-top: 1rem;
+}
+.icon i{
+    color: #fff;
+    text-decoration: underline #ff9100;
+    }
+.icon i:hover{
+    transition: .3s;
+    transform: scale(1.2);
+    text-decoration: overline #ff9100;
+}
 
 .hello {
     display: inline;
@@ -102,12 +117,12 @@ ul a:hover {
 .left {
     margin-top: 5%;
     border-radius: 70PX;
-    background-image: url(img.jpg.jpeg);
+    background-image: url(sajood2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
     height: 550px;
-    box-shadow: 2px 2px 16px 7px #ffae45a2;
+    box-shadow: 2px 2px 16px 7px #ff4545a2;
     cursor: pointer;
 }
 
